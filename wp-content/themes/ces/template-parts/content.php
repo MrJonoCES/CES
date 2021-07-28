@@ -21,21 +21,18 @@
 		</div>	
 	</div>
 
-	<div>
-	<h1 id="post_title"><?php the_title(); ?></h1>
+	<div class="min-vh-100 flex items-center justify-center pv5">
+		<div class="measure-wide center tc">
+			<h1 id="post_title"><?php the_title(); ?></h1>
+
+			<?php if( get_field('blurb') ): ?>
+			<p class="f4 lh-copy"><?php the_field('blurb'); ?></p>
+			<?php endif; ?>
+
+		</div>
 	</div>
 
-	<div class="blurb">
-
-		<?php if( get_field('blurb') ): ?>
-		<p><?php the_field('blurb'); ?></p>
-		<?php endif; ?>
-	</div>
 </section>
 
 
-
-	<footer class="entry-footer">
-		<?php ces_entry_footer(); ?>
-	</footer><!-- .entry-footer -->
 </article><!-- #post-<?php the_ID(); ?> -->

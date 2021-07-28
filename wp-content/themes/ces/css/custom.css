@@ -40,10 +40,12 @@
 
 body {
     font-family: 'Spectral', serif;
+    font-weight: normal;
 }
 
 h1 {
-font-family: "TG Frekuent Mono Variable", "TG Frekuent Mono", Courier, monospace;
+font-family: "TG Frekuent Mono Variable", Courier, monospace;
+color: #002aff;
 }
 
 @keyframes TG-animation {
@@ -64,3 +66,59 @@ h8 {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
   }
+
+  a {
+    text-decoration: none;
+  }
+
+  a:visited {
+    color: #002aff;
+  }
+
+  .site-header {
+    height: 0;
+    z-index: 99999;
+    position: relative;
+  }
+
+  .header-inner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .site-title {
+    font-family: "TG Frekuent Mono";
+    color: #002aff;
+  }
+
+  .menu {
+    padding-left: 0;
+    margin: 0;
+    display: flex;
+    list-style: none;
+  }
+  
+  .menu-item {
+    margin-left: 15px;
+    text-decoration: none;
+    font-family: "TG Frekuent Mono";
+    color: #002aff;
+    font-size: 1.5rem;
+  }
+
+  .rss-inner-slider-item {
+    background-size: auto 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+
+  } 
+
+  .slick-list .rss-inner-slider-item .slide .slick-current .slick-active .draggable {
+    height: 100vh !important;
+  }
+
+  .rss-inner-page-slider-1, .sl-slider, .slick-list, .slick-track, .rss-inner-slider-item {
+	height: 100vh !important;
+}

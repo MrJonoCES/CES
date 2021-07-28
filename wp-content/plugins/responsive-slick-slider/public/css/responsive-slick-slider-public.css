@@ -36,7 +36,7 @@
 	left: 0px;
 	width: 50vw !important;
 	height: 100vw !important;
-	cursor: url('http://www.cityeditionstudio.co.uk/wp-content/uploads/2020/10/arrow-left-blue.png'), auto;
+	cursor: url('http://localhost:8888/wp-content/plugins/responsive-slick-slider/public/images/arrow-left-blue.png'), auto !important;
 
 	-webkit-transform: translateY(-50%);transform: translateY(-50%);
 	
@@ -56,7 +56,7 @@
 	right: 0px;
 	width: 50vw !important;
 	height: 100vw !important;
-	cursor: url('http://www.cityeditionstudio.co.uk/wp-content/uploads/2020/10/arrow-right-blue.png'), auto;
+	cursor: url('http://localhost:8888/wp-content/plugins/responsive-slick-slider/public/images/arrow-right-blue.png'), auto !important;
 
 	-webkit-transform: translateY(-50%);transform: translateY(-50%);
 	background:rgba(0,0,0,0.5);
