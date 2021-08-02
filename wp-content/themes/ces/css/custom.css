@@ -48,6 +48,8 @@ font-family: "TG Frekuent Mono Variable", Courier, monospace;
 color: #002aff;
 }
 
+
+
 @keyframes TG-animation {
     from {
       font-variation-settings: "wght" 300;
@@ -73,6 +75,10 @@ h8 {
 
   a:visited {
     color: #002aff;
+  }
+
+  html {
+    scroll-behavior: smooth;
   }
 
   .site-header {
@@ -114,6 +120,60 @@ h8 {
     position: relative;
 
   } 
+
+  .downbutton {
+    position: absolute;
+    left: 50%;
+    color: #FFFFFF!important;
+    border-width: 0px!important;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    background-color: #002aff;
+    transform: translate(-50%, -200%);
+    z-index: 9999999;
+    text-decoration: none;
+    border-radius: 10%;
+  }
+
+  .upbutton {
+    position: absolute;
+    left: 50%;
+    color: #FFFFFF!important;
+    border-width: 0px!important;
+    font-weight: 700!important;
+    text-transform: uppercase!important;
+    padding-left: 0.7em;
+    padding-right: 0.7em;
+    background-color: #002aff;
+    z-index: 9999999;
+    text-decoration: none;
+    border-radius: 10%;
+    transform: translate(-50%, 0%);
+  }
+
+  .downbutton a:visited {
+    color: #FFFFFF;
+  }
+
+  .upbutton a:visited {
+    color: #FFFFFF;
+  }
+
+  .downbutton h2 {
+    font-family: "TG Frekuent Mono";
+    font-size: 1rem;
+  }
+
+  .upbutton h2 {
+    font-family: "TG Frekuent Mono";
+    font-size: 1rem;
+  }
+
+  .hero {
+    position: relative;
+  }
 
   .slick-list .rss-inner-slider-item .slide .slick-current .slick-active .draggable {
     height: 100vh !important;
