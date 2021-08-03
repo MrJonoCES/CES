@@ -14,7 +14,7 @@
 <section id="anchorimages" >
 
 	<div class="hero">
-		<div class="w-100 vh-100 cover bg-center">
+		<div class="w-100 vh-100-l min-vh-25-m mt6-m mt4-s cover bg-center">
 			<?php if( get_field('desktop_slider') ): ?>
 			<?php the_field('desktop_slider'); ?>
 			<?php endif; ?>
@@ -28,12 +28,15 @@
 
 <section id="anchortext" >
 
-	<div  class="min-vh-100 flex items-center justify-center pv5">
-		<div class="measure-wide center tc">
-			<h1 id="post_title"><?php the_title(); ?></h1>
-
+	<div  class="min-vh-50 min-vh-100-l flex items-center justify-center pv5">
+		<div class="measure-wide center tc-l tl">
+			
+			<div id="post_title">
+				<h1 class="ph4 ph0-l"><?php the_title(); ?></h1>
+			</div>
+			
 			<?php if( get_field('blurb') ): ?>
-			<p class="f4 lh-copy"><?php the_field('blurb'); ?></p>
+			<p class="lh-copy ph4 ph0-l"><?php the_field('blurb'); ?></p>
 			<?php endif; ?>
 			
 			<div class="upbutton">

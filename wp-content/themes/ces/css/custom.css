@@ -124,32 +124,30 @@ h8 {
   .downbutton {
     position: absolute;
     left: 50%;
-    color: #FFFFFF!important;
-    border-width: 0px!important;
-    font-weight: 700!important;
-    text-transform: uppercase!important;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase;
     padding-left: 0.7em;
     padding-right: 0.7em;
     background-color: #002aff;
     transform: translate(-50%, -200%);
     z-index: 9999999;
     text-decoration: none;
-    border-radius: 10%;
+    border-radius: 10px;
   }
 
   .upbutton {
     position: absolute;
     left: 50%;
-    color: #FFFFFF!important;
-    border-width: 0px!important;
-    font-weight: 700!important;
-    text-transform: uppercase!important;
+    color: #FFFFFF;
+    font-weight: 700;
+    text-transform: uppercase;
     padding-left: 0.7em;
     padding-right: 0.7em;
     background-color: #002aff;
     z-index: 9999999;
     text-decoration: none;
-    border-radius: 10%;
+    border-radius: 10px;
     transform: translate(-50%, 0%);
   }
 
@@ -158,7 +156,7 @@ h8 {
   }
 
   .upbutton a:visited {
-    color: #FFFFFF;
+    color: #FFFFFF !important;
   }
 
   .downbutton h2 {
@@ -169,16 +167,50 @@ h8 {
   .upbutton h2 {
     font-family: "TG Frekuent Mono";
     font-size: 1rem;
+    color: #FFFFFF;
   }
 
   .hero {
     position: relative;
   }
 
+  @media only screen and (max-width: 960px) 
+   { 
+     .hero {
+        margin-top: 100px !important;
+     }
+   }
+
+  @media only screen and (max-width: 960px) 
+   { 
+    .slick-list .rss-inner-slider-item .rss-inner-slider-item-1 .slide .slick-current .slick-active .draggable {
+      height: auto !important;
+    }
+
+    .upbutton {
+      display: none;
+    }
+
+    .downbutton {
+      display: none;
+    }
+
+    .site-header {
+      display: none;
+    }
+}
+
+@media only screen and (min-width: 961px) 
+ { 
   .slick-list .rss-inner-slider-item .slide .slick-current .slick-active .draggable {
     height: 100vh !important;
   }
 
   .rss-inner-page-slider-1, .sl-slider, .slick-list, .slick-track, .rss-inner-slider-item {
 	height: 100vh !important;
-}
+  }
+
+  .slick-dots {
+    display: none !important;
+  }
+ }
