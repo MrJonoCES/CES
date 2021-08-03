@@ -34,6 +34,7 @@
 
 	<header id="masthead" class="site-header">
 		<div  class="header-inner container">
+
 		<div class="site-branding pr5">
 			<?php
 			the_custom_logo();
@@ -65,4 +66,20 @@
 			?>
 		</nav><!-- #site-navigation -->
 		</div>
+
+		<div class="burger">
+		<a href="#" class="menu-toggle"> 
+			&#9776;
+		</a>
+		</div>
+
 	</header><!-- #masthead -->
+
+
+	<div class="mobile-menu">
+
+			<nav>
+				<a>Projects</a>
+				<a>Information</a>
+			</nav>
+		</div>
