@@ -45,7 +45,14 @@
 		</div>
 	</div>
 
+	<div>
+
+	<img src="<?php echo get_template_directory_uri();?> ../images/method.png" alt="Method">
+
+	</div>
+
 </section>
+
 
 
 </article><!-- #post-<?php the_ID(); ?> -->
