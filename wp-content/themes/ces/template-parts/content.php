@@ -45,11 +45,11 @@
 		</div>
 	</div>
 
-	<div>
+	<!-- <div>
 
-	<img src="<?php echo get_template_directory_uri();?> ../images/method.png" alt="Method">
+	<img src="<?php echo get_template_directory_uri();?>/css/images/method.png" alt="Method">
 
-	</div>
+	</div> -->
 
 </section>
 

@@ -33,7 +33,7 @@
 	<a class="skip-link screen-reader-text" href="#primary"><?php esc_html_e( 'Skip to content', 'ces' ); ?></a>
 
 	<header id="masthead" class="site-header">
-		<div  class="header-inner container">
+		<div id="nav" class="header-inner container">
 
 		<div class="site-branding pr5">
 			<?php
@@ -69,7 +69,8 @@
 
 		<div class="burger">
 		<a href="#" class="menu-toggle"> 
-			&#9776;
+			<!-- &#9776;  -->
+			<img src="<?php echo get_template_directory_uri();?>/css/images/menu.svg" alt="Menu">
 		</a>
 		</div>
 
