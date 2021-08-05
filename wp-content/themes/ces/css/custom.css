@@ -98,6 +98,15 @@ h8 {
     color: #002aff;
   }
 
+  .hero {
+    position: relative;
+  }
+
+  /* ----------------------------- */
+
+
+  /* Menu */
+
   .menu {
     padding-left: 0;
     margin: 0;
@@ -111,71 +120,6 @@ h8 {
     font-family: "TG Frekuent Mono";
     color: #002aff;
     font-size: 1.5rem;
-  }
-
-  .page-id-3294 #nav {
-    color: #ffffff;
- }
-
-  .rss-inner-slider-item {
-    background-size: auto 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: relative;
-
-  } 
-
-  .downbutton {
-    position: absolute;
-    left: 50%;
-    color: #FFFFFF;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding-left: 0.7em;
-    padding-right: 0.7em;
-    background-color: #002aff;
-    transform: translate(-50%, -200%);
-    z-index: 9999999;
-    text-decoration: none;
-    border-radius: 10px;
-  }
-
-  .upbutton {
-    position: absolute;
-    left: 50%;
-    color: #FFFFFF;
-    font-weight: 700;
-    text-transform: uppercase;
-    padding-left: 0.7em;
-    padding-right: 0.7em;
-    background-color: #002aff;
-    z-index: 9999999;
-    text-decoration: none;
-    border-radius: 10px;
-    transform: translate(-50%, 0%);
-  }
-
-  .downbutton a:visited {
-    color: #FFFFFF;
-  }
-
-  .upbutton a:visited {
-    color: #FFFFFF !important;
-  }
-
-  .downbutton h2 {
-    font-family: "TG Frekuent Mono";
-    font-size: 1rem;
-  }
-
-  .upbutton h2 {
-    font-family: "TG Frekuent Mono";
-    font-size: 1rem;
-    color: #FFFFFF;
-  }
-
-  .hero {
-    position: relative;
   }
 
   .mobile-menu {
@@ -215,7 +159,129 @@ h8 {
     margin-top: 20px;
   }
 
-  @media only screen and (max-width: 960px) 
+/* ----------------------------- */
+
+
+ /* Information Page (page-id-3294) */
+ 
+
+body.page-id-3294 {
+    background-color: #002aff;
+ }
+
+ .info {
+  font-family: "TG Frekuent Mono Variable", Courier, monospace;
+  color: #FFFFFF;
+  padding-bottom: 1em;
+ }
+
+ .page-id-3294 #blueburger {
+  display: none;
+}
+
+#whiteburger {
+  display: none;
+}
+
+.page-id-3294 #whiteburger {
+  display: block;
+}
+
+ .info-main a,
+ .info-main a:visited {
+  color: #ff00dd !important;
+}
+
+mobile-menu.page-id-3294 a,
+mobile-menu.page-id-3294 a:visited {
+  color: #fff !important;
+}
+
+.page-id-3294 #menu-item-1271 a,
+.page-id-3294 #menu-item-1271 a:visited{
+  color: #fff !important;
+}
+
+.page-id-3294 #menu-item-3296 a,
+.page-id-3294 #menu-item-3296 a:visited {
+  color: #fff !important;
+}
+
+.page-id-3294 #site-title a,
+.page-id-3294 #site-title a:visited {
+  color: #fff !important;
+}
+
+ /* ----------------------------- */
+
+
+/* Slider */
+ .rss-inner-slider-item {
+  background-size: auto 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+
+} 
+
+.downbutton {
+  position: absolute;
+  left: 50%;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  background-color: #002aff;
+  transform: translate(-50%, -200%);
+  z-index: 9999999;
+  text-decoration: none;
+  border-radius: 10px;
+}
+
+.upbutton {
+  position: absolute;
+  left: 50%;
+  color: #FFFFFF;
+  font-weight: 700;
+  text-transform: uppercase;
+  padding-left: 0.7em;
+  padding-right: 0.7em;
+  background-color: #002aff;
+  z-index: 9999999;
+  text-decoration: none;
+  border-radius: 10px;
+  transform: translate(-50%, 0%);
+}
+
+.downbutton a:visited {
+  color: #FFFFFF;
+}
+
+.upbutton a:visited {
+  color: #FFFFFF !important;
+}
+
+.downbutton h2 {
+  font-family: "TG Frekuent Mono";
+  font-size: 1rem;
+}
+
+.upbutton h2 {
+  font-family: "TG Frekuent Mono";
+  font-size: 1rem;
+  color: #FFFFFF;
+}
+
+.slick-dots {
+  display: none !important;
+}
+
+ /* ----------------------------- */
+
+   /* Media Queries */
+
+   @media only screen and (max-width: 960px) 
    { 
      .hero {
         margin-top: 100px !important;
@@ -243,6 +309,7 @@ h8 {
     .burger {
       width: 25px;
     }
+
 }
 
 @media only screen and (min-width: 961px) 
@@ -255,10 +322,6 @@ h8 {
 	height: 100vh !important;
   }
 
-  .slick-dots {
-    display: none !important;
-  }
-
   .mobile-menu {
     display: none;
   }
@@ -269,20 +332,4 @@ h8 {
   }
  }
 
- .info-main {
-   background-color: #002aff;
- }
-
- .info-main a {
-  color: #ff00dd !important;
-}
-
- .info-main a:visited {
-  color: #ff00dd !important;
-}
-
- .info {
-  font-family: "TG Frekuent Mono Variable", Courier, monospace;
-  color: #FFFFFF;
-  padding-bottom: 1em;
- }
+ /* ----------------------------- */

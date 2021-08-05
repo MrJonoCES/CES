@@ -2,6 +2,7 @@
 /*
 Template Name: Information Page
 */
+
 ?>
 
 
@@ -24,7 +25,7 @@ get_header();
 
 	<main class="info-main min-vh-100 flex items-center justify-center">
 
-		<div id="post_title" class="w-60 f3 tc lh-copy pt5">
+		<div id="post_title" class="w-60-l w-100 ph4 ph0-l f5 f3-l tc lh-copy pt5">
 
 			<p class="info">City Edition Studio is a graphic design practice in Bristol, established by Jono Lewarne, who likes to collaborate with clients 
 			and other practitioners on projects like 
@@ -55,4 +56,9 @@ get_header();
 
 	</main>
 
-<?php
+	</div><!-- #page -->
+
+<?php wp_footer(); ?>
+
+</body>
+</html>

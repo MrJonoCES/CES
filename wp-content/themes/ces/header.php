@@ -25,6 +25,10 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 	<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,300;1,300&display=swap" rel="stylesheet"> 
 
+	<body <?php body_class(); ?>>
+
+	
+
 </head>
 
 <body <?php body_class(); ?>>
@@ -44,7 +48,7 @@
 				<?php
 			else :
 				?>
-				<p class="site-title f3"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
+				<p id="site-title" class="site-title f3"><a href="<?php echo esc_url( home_url( '/' ) ); ?>" rel="home"><?php bloginfo( 'name' ); ?></a></p>
 				<?php
 			endif;
 			$ces_description = get_bloginfo( 'description', 'display' );
@@ -69,8 +73,8 @@
 
 		<div class="burger">
 		<a href="#" class="menu-toggle"> 
-			<!-- &#9776;  -->
-			<img src="<?php echo get_template_directory_uri();?>/css/images/menu.svg" alt="Menu">
+			<img id="blueburger" src="<?php echo get_template_directory_uri();?>/css/images/menu.svg" alt="Menu">
+			<img id="whiteburger" src="<?php echo get_template_directory_uri();?>/css/images/menuwhite.svg" alt="Menu">
 		</a>
 		</div>
 
