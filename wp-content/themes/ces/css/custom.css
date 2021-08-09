@@ -50,7 +50,9 @@ color: #002aff;
 
 .TG {
   font-family: "TG Frekuent Mono Variable", Courier, monospace;
-  font-weight: normal;
+  font-weight: bold;
+  mix-blend-mode: multiply;
+  color: #002aff;
 }
 
 @keyframes TG-animation {
@@ -98,6 +100,7 @@ h8 {
 
   .site-title {
     font-family: "TG Frekuent Mono";
+    font-weight: normal;
     color: #002aff;
   }
 
@@ -200,8 +203,8 @@ mobile-menu.page-id-3294 a:visited {
   color: #fff !important;
 }
 
-.page-id-3294 #menu-item-1271 a,
-.page-id-3294 #menu-item-1271 a:visited{
+.page-id-3294 #menu-item-3318 a,
+.page-id-3294 #menu-item-3318 a:visited{
   color: #fff !important;
 }
 
@@ -431,4 +434,14 @@ mobile-menu.page-id-3294 a:visited {
   .w-50-l {
       width: 50%;
   }
+}
+
+.post-title {
+  opacity: 0;
+  background-color: #fff;
+}
+
+.post-title:hover {
+  opacity: 0.9;
+  background-color: #fff;
 }

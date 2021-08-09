@@ -38,6 +38,10 @@
 			<?php if( get_field('blurb') ): ?>
 			<p class="lh-copy ph4 ph0-l"><?php the_field('blurb'); ?></p>
 			<?php endif; ?>
+
+			<?php if( get_field('more_info') ): ?>
+			<p class="TG lh-copy ph4 ph0-l"><?php the_field('more_info'); ?></p>
+			<?php endif; ?>
 			
 			<div class="upbutton">
 				<a href="#anchorimages"><h2>Images <span>&#8593;</span> </h2></a>

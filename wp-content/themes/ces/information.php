@@ -35,7 +35,7 @@ get_header();
 			<a href="#">identities</a>,
 			<a href="#">exhibitions</a>,
 			<a href="#">installations</a> and 
-			<a href="#">digital projects</a>
+			<a href="#">digital projects</a>.
 
 			It’s Nice That 
 			<a href="https://www.itsnicethat.com/articles/city-edition-studio-graphic-design-200519" target="_blank" rel="noopener noreferrer">this article </a>
