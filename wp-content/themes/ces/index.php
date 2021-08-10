@@ -26,14 +26,17 @@ get_header();
   
 <!-- <a class="fl w-100 w-50-l" href="http://localhost:8888/art-research-adventure/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">
-      <div class="bg-center cover aspect-ratio--object" style="background-image: <?php $url = wp_get_attachment_url( get_post_thumbnail_id(1385), 'large' ); ?> <img src="<?php echo $url ?>" />
-        
+      <div class="bg-center cover aspect-ratio--object" style="background-image: <?php $url = wp_get_attachment_url( get_post_thumbnail_id(1385), 'large' ); ?>">
+	  <img class="grid-image" src="<?php echo $url ?>"> 
       <div class="post-title aspect-ratio--object">
       <p class="TG ma0 f4 f2-l pa4 tl lh-title">Art, Research & Adventure</p>
         </div>
       </div>
     </div>
-  </a> -->
+  </a>
+ -->
+
+
 
   <a class="fl w-100 w-50-l" href="http://localhost:8888/art-research-adventure/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">

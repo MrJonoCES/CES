@@ -11,7 +11,7 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
-<section id="anchorimages" >
+<section id="images" >
 
 	<div class="hero">
 		<div class="w-100 vh-100-l min-vh-25-m mt6-m mt4-s cover bg-center">
@@ -20,13 +20,13 @@
 			<?php endif; ?>
 		</div>	
 		<div class="downbutton">
-			<a href="#anchortext"><h2>Words <span>&#8595;</span> </h2></a>
+			<a href="#words"><h2>Words <span>&#8595;</span> </h2></a>
 		</div>
 	</div>
 
 </section>
 
-<section id="anchortext" >
+<section id="words" >
 
 	<div  class="min-vh-50 min-vh-100-l flex items-center justify-center pv5">
 		<div class="measure-wide center tc-l tl">
@@ -44,7 +44,7 @@
 			<?php endif; ?>
 			
 			<div class="upbutton">
-				<a href="#anchorimages"><h2>Images <span>&#8593;</span> </h2></a>
+				<a href="#images"><h2>Images <span>&#8593;</span> </h2></a>
 			</div>
 		</div>
 	</div>

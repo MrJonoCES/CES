@@ -37,6 +37,11 @@
       url("fonts/TGFrekuentMono-Bold.svg") format("svg");
   }
 
+  @font-face {
+    font-family: "Wind Variable";
+      src: url("fonts/Wind VF.ttf") format("truetype"),
+  }
+
 
 body {
     font-family: 'Spectral', serif;
@@ -52,6 +57,12 @@ color: #002aff;
   font-family: "TG Frekuent Mono Variable", Courier, monospace;
   font-weight: bold;
   mix-blend-mode: multiply;
+  color: #002aff;
+}
+
+.wind {
+  font-family: "Wind Variable", Courier, monospace;
+  font-weight: normal;
   color: #002aff;
 }
 
@@ -106,6 +117,11 @@ h8 {
 
   .hero {
     position: relative;
+  }
+
+  .hero-flow {
+    position: relative;
+    background-color: blue;
   }
 
   /* ----------------------------- */
@@ -445,3 +461,8 @@ mobile-menu.page-id-3294 a:visited {
   opacity: 0.9;
   background-color: #fff;
 }
+/* 
+#grid-image img {
+  max-width: none !important;
+  max-height: 100%;
+} */

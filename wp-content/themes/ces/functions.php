@@ -190,3 +190,11 @@ require get_template_directory() . '/inc/customizer.php';
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
 }
+
+// here we have a function that returns
+// us a nicely formatted background image
+function nice_background($image_field) {
+	// we pass in our image field, and it returns us it 
+	// in a formatted fashion 
+	echo 'background-image: url(' . get_field($image_field) . ')';
+}
