@@ -30,16 +30,15 @@ get_header();
 			<p class="info">City Edition Studio is a graphic design practice in Bristol, established by Jono Lewarne, who likes to collaborate with clients 
 			and other practitioners on projects like 
 			
-			<a href="#">books</a>,
-			<a href="#">printed matter</a>,
-			<a href="#">identities</a>,
-			<a href="#">exhibitions</a>,
-			<a href="#">installations</a> and 
-			<a href="#">digital projects</a>.
+			<a href="/category/book-design/">books</a>,
+			<a href="/category/print/">printed matter</a>,
+			<a href="/category/identity/">identities</a>,
+			<a href="/category/exhibition/">exhibitions</a>,
+			<a href="/category/installation/">installations</a> and 
+			<a href="/category/digital/">digital projects</a>.
 
 			It’s Nice That 
-			<a href="https://www.itsnicethat.com/articles/city-edition-studio-graphic-design-200519" target="_blank" rel="noopener noreferrer">this article </a>
-			article about City Edition Studio. </p>
+			<a href="https://www.itsnicethat.com/articles/city-edition-studio-graphic-design-200519" target="_blank" rel="noopener noreferrer">has written </a> about City Edition Studio. </p>
 
 			<p class="info">Clients include: The National Trust, Architectural Association, Arnolfini, Plymouth Arts Centre, Spike Island, Watershed, Edge Arts, Ginkgo Projects, Antlers Gallery, The Crown Estate, Bristol City Council
 

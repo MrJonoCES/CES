@@ -37,11 +37,6 @@
       url("fonts/TGFrekuentMono-Bold.svg") format("svg");
   }
 
-  @font-face {
-    font-family: "Wind Variable";
-      src: url("fonts/Wind VF.ttf") format("truetype"),
-  }
-
 
 body {
     font-family: 'Spectral', serif;
@@ -53,16 +48,16 @@ font-family: "TG Frekuent Mono Variable", Courier, monospace;
 color: #002aff;
 }
 
+h2 {
+  font-family: "TG Frekuent Mono Variable", Courier, monospace;
+  font-weight: 300;
+  color: #002aff;
+  }
+
 .TG {
   font-family: "TG Frekuent Mono Variable", Courier, monospace;
   font-weight: bold;
   mix-blend-mode: multiply;
-  color: #002aff;
-}
-
-.wind {
-  font-family: "Wind Variable", Courier, monospace;
-  font-weight: normal;
   color: #002aff;
 }
 
@@ -117,11 +112,6 @@ h8 {
 
   .hero {
     position: relative;
-  }
-
-  .hero-flow {
-    position: relative;
-    background-color: blue;
   }
 
   /* ----------------------------- */
@@ -287,6 +277,7 @@ mobile-menu.page-id-3294 a:visited {
 .downbutton h2 {
   font-family: "TG Frekuent Mono";
   font-size: 1rem;
+  color: #fff;
 }
 
 .upbutton h2 {
@@ -295,7 +286,7 @@ mobile-menu.page-id-3294 a:visited {
   color: #FFFFFF;
 }
 
-.slick-dots {
+.caption-wrap {
   display: none !important;
 }
 
@@ -312,7 +303,7 @@ mobile-menu.page-id-3294 a:visited {
 
   @media only screen and (max-width: 960px) 
    { 
-    .slick-list .rss-inner-slider-item .rss-inner-slider-item-1 .slide .slick-current .slick-active .draggable {
+    .slick-list .rss-inner-slider-item .rss-inner-slider-item-1 .slide .slick-current .slick-active {
       height: auto !important;
     }
 
@@ -330,6 +321,18 @@ mobile-menu.page-id-3294 a:visited {
 
     .burger {
       width: 25px;
+    }
+
+    div.post-grid-item {
+      width: 100%;
+      display: inline-block;
+      vertical-align: top;
+      text-align: left;
+      position: relative;
+    }
+
+    .big-slider {
+      display: none;
     }
 
 }
@@ -352,6 +355,20 @@ mobile-menu.page-id-3294 a:visited {
     display: none;
     width: 4%;
   }
+
+  div.post-grid-item {
+    width: 32.5%;
+    display: inline-block;
+    vertical-align: top;
+    text-align: left;
+    margin-bottom: 10px;
+    position: relative;
+  }
+
+  .mob-slider {
+    display: none;
+  }
+
  }
 
  /* ----------------------------- */
@@ -461,80 +478,26 @@ mobile-menu.page-id-3294 a:visited {
   opacity: 0.9;
   background-color: #fff;
 }
-/* 
-#grid-image img {
-  max-width: none !important;
-  max-height: 100%;
-} */
 
-.slideshow {
-  position: relative;
-  overflow: hidden;
-  width: 100vw;
-  height: 100vh;
-}
+ /* ----------------------------- */
 
-.holder {
-  position: relative;
-  top: 0;
-  left: 0;
-  width: 10000vw;
-  height: 100vh;
-  transition: left 1s;
-}
-
-.holder div {
-  float: left;
-  width: 100vw;
-  height: 100vh;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  padding: 20px 30px;
-}
-
-.slide-1 {
-  background-image: url(images/boyce_1.jpg);
-}
-
-.slide-2 {
-  background-image: url(images/boyce_2.jpg);
-}
-
-.slide-3 {
-  background-image: url(images/boyce_3.jpg);
-}
-
-.slide-4 {
-  background-image: url(images/boyce_4.jpg);
-}
-
-.slide-5 {
-  background-image: url(images/boyce_5.jpg);
-}
-
-.steps {
-  position: absolute;
-  bottom: 30px;
-  left: 0;
-  width: 100%;
-  overflow: hidden;
+.archive-header {
+  padding-top: 80px;
   text-align: center;
 }
 
-a {
-  color: white;
-  padding: 20px 30px;
-  position: absolute;
-  bottom: 0;
-  text-decoration: none;
-  z-index: 1;
+div#content {
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
 }
 
-.prev {
-  left: 0;
+h2.post-grid-title {
+  height: 5vh;
 }
 
-.next {
-  right: 0;
+img.post-thumb.wp-post-image {
+  min-width: 100%;
+  max-width: 100%;
+  height: auto;
 }

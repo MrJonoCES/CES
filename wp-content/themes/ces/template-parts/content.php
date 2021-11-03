@@ -11,23 +11,20 @@
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 
+<section id="images" >
 
-<div class="slideshow">
-  <div class="holder">
-    <div class="slide-1">Black Line Yellow Box</div>
-    <div class="slide-2">Bollard Bag Black Grey</div>
-    <div class="slide-3">Cardboard Box Metal Panel</div>
-    <div class="slide-4">Post Panel Frame</div>
-  </div>
-</div>
+	<div class="hero">
+		<div class="w-100 vh-100-l min-vh-25-m mt6-m mt4-s cover bg-center">
+			<?php if( get_field('desktop_slider') ): ?>
+			<?php the_field('desktop_slider'); ?>
+			<?php endif; ?>
+		</div>	
+		<div class="downbutton">
+			<a href="#words"><h2>Words <span>&#8595;</span> </h2></a>
+		</div>
+	</div>
 
-<div class="steps">
-
-</div>
-
-<a href="#" class="prev">Prev</a>
-<a href="#" class="next">Next</a>
-
+</section>
 
 <section id="words" >
 

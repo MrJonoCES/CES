@@ -84,7 +84,8 @@
 	<div class="mobile-menu">
 
 			<nav>
-				<a>Projects</a>
-				<a>Information</a>
+				<a href="https://staging.cityeditionstudio.co.uk/">Projects</a>
+				<a href="https://staging.cityeditionstudio.co.uk/info">Information</a>
 			</nav>
 		</div>
+
