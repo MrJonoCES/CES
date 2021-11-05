@@ -80,15 +80,22 @@
 	height:100%;
 	overflow: hidden;
 }
+
+.rss-banner-caption {
+	/* mix-blend-mode: exclusion; */
+}
 .rss-banner-layer .rss-banner-caption{position:absolute;padding:20px;}
 .rss-banner-title{
 	font-size:2vw;
 	line-height: 1.2em;
 	font-weight:bold;
 	margin-bottom:5%;
+	
 }
 .rss-banner-description{
-	font-size:1.5vw;
+	font-size:1.5rem;
+	font-family: "TG Frekuent Mono";
+	/* mix-blend-mode: exclusion; */
 }
 .rss-banner-url a{
 	padding:10px 20px;
@@ -150,13 +157,11 @@
 	  text-align:left;
 }
 .bottomleft .rss-banner-caption{
-	  bottom:2.5%;
-	  left:0px;
+	  bottom: 5px;
+	  left: 0px;
 	  text-align:left;
     	width: 40%;
-    	background-color: blue;
-    	opacity: 80%;
-    	mix-blend-mode: luminosity;
+		color: #002aff;
 }
 .bottomcenter .rss-banner-caption{
 	  bottom:50px;
@@ -178,13 +183,17 @@
 }
 /***20-6***/
 
-
+@media(max-width:959px) {
+	.rss-banner-description{
+	display: none;
+	}
+}
 
 @media(max-width:767px) {
 	.rss-inner-page-slider-1 .rss-inner-slider-item {height: 300px;}
 	.rss-banner-title{font-size:5vw;margin-bottom:10px;}
-	.rss-banner-description{font-size:4vw;}
-	.rss-banner-caption{max-width:80%;}
+	.rss-banner-description{display: none;}
+	.rss-banner-caption{max-width:80%;display: none;}
 	.rss-banner-url a{padding:7px 15px;}
 	/***20-6***/
 	.rss-inner-slider-sec .rss-banner-caption{
@@ -210,10 +219,13 @@
 	.rss-banner-caption{padding:0 29px;}
 	.rss-inner-slider-sec .rss-banner-caption{
 		width:80% !important;
+		display: none;
+		
 	}
 	.rss-banner-description {
 		font-size: 4vw;
-    		line-height: 1.4em;
+    	line-height: 1.4em;
+		display: none;
 	}
 	.rss-banner-title {
 		font-size: 6.6vw;
@@ -236,11 +248,12 @@
 	margin-bottom:5px;
 	}
 	.rss-banner-description {
-    	font-size: 1.0vw;
+    	font-size: 1.5rem;
+		/* mix-blend-mode: exclusion; */
 	}
 	.bottomleft .rss-banner-caption {
-	bottom: 5%;
 	width: auto;
 	max-width: 40%;
+	/* mix-blend-mode: color-burn; */
 	}
 }

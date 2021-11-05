@@ -155,6 +155,8 @@ function ces_scripts() {
 
 	wp_enqueue_script( 'main', get_template_directory_uri() . '/js/main.js', array(), _S_VERSION, true );
 
+	wp_enqueue_script( 'info-panel', get_template_directory_uri() . '/js/info-panel.js', array(), _S_VERSION, true );
+
 	if ( is_singular() && comments_open() && get_option( 'thread_comments' ) ) {
 		wp_enqueue_script( 'comment-reply' );
 
@@ -189,4 +191,32 @@ require get_template_directory() . '/inc/customizer.php';
  */
 if ( defined( 'JETPACK__VERSION' ) ) {
 	require get_template_directory() . '/inc/jetpack.php';
+}
+
+
+/*
+ * Retreive url's for image attachments from a post
+ */
+
+function getPostImages($size = 'full'){
+    global $post;
+    $urls = array();
+
+    $images = get_children(array(
+        'post_parent' => $post->ID, 
+        'post_status' => 'inheret',
+        'post_type'   => 'attachment',
+        'post_mime_type' => 'image'
+    ));
+
+    if(isset($images)){
+        foreach($images as $image){
+            $imgThumb = wp_get_attachment_image_src($image->ID, $size, false);
+            $urls[] = $imgThumb[0];
+        }  
+
+        return $urls;
+    }else{
+        return false;
+    }
 }
