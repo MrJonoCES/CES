@@ -23,9 +23,9 @@ Template Name: Information Page
 get_header();
 ?>
 
-	<main class="info-main min-vh-100 flex items-center justify-center">
+	<main id="post_title" class="info-main min-vh-100 flex items-center justify-center">
 
-	<div  id="post_title" class="grid-info">
+	<div class="grid-info">
 		<div class="ph4 ph0-l f4 lh-copy grid-item">
 
 			<p class="info">City Edition Studio is a graphic design practice in Bristol, established by Jono Lewarne, who likes to collaborate with clients 
@@ -57,6 +57,22 @@ get_header();
 			<p class="info">Jono is one half of Smith and Lewarne, a collaborative design studio. <a href="http://smithandlewarne.com/" target="_blank" rel="noopener noreferrer">Find out more here.</a></p>
 
 		</div>
+
+
+
+		<section class="mix-panel" id="mix" >
+
+				<div>
+				<iframe width="800px" height="500px"  src="https://www.dropbox.com/s/f5snduipzt3cylg/Lockdown%20Records%20Mix.mp4?raw=1" frameborder="0" allowfullscreen></iframe>
+				</div>
+
+		</section>
+
+		</div>	
+		<div class="mix">
+		<a href="#" class="toggle-mix"><img src="http://localhost:8888/wp-content/themes/ces/css/images/vinyl.gif"></a>
+		</div>
+
 		</div>
 	</main>
 

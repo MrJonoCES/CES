@@ -40,6 +40,10 @@
 			
 			<div class="grid-item" id="post_title">
 				<h1 class="ph4 f3 ph0-l"><?php the_title(); ?></h1>
+
+				<?php if( get_field('more_info') ): ?>
+			<h6 class="TG lh-copy ph4 ph0-l" style="margin-bottom:0!important"><?php the_field('more_info'); ?></h6>
+			<?php endif; ?>
 			</div>
 			
 			<div class="grid-item">
@@ -47,9 +51,7 @@
 			<p class="lh-copy ph4 ph0-l copy"><?php the_field('blurb'); ?></p>
 			<?php endif; ?>
 
-			<?php if( get_field('more_info') ): ?>
-			<p class="TG lh-copy ph4 ph0-l "><?php the_field('more_info'); ?></p>
-			<?php endif; ?>
+
 			</div>
 			
 	</div>

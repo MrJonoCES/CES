@@ -292,24 +292,8 @@ get_header();
 <!-- End of Block 5  -->
 
 <div class="tc">
-  <h2>View all Projects</h2>
+<a href="/categories/"><h2>View all Projects</h2></a>
 </div>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 	</main><!-- #main -->

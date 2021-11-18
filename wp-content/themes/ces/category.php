@@ -27,7 +27,7 @@ while ( have_posts() ) : the_post(); ?>
 <div class="post-grid-item">
  
 <div>
-    <a href="<?php the_permalink() ?>"><?php the_post_thumbnail( 'medium_large', array('class' => 'post-thumb')); ?></a>
+    <a href="<?php the_permalink() ?>"><?php the_post_thumbnail( 'category-thumb', array('class' => 'post-thumb')); ?></a>
 </div>
 
 <h2 class="post-grid-title"><a href="<?php the_permalink() ?>" rel="bookmark" title="Permanent Link to <?php the_title_attribute(); ?>"><?php the_title(); ?></a></h2>

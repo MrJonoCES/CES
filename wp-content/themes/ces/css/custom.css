@@ -55,9 +55,23 @@ h2 {
   color: #002aff;
   }
 
+  h6 {
+    font-family: "TG Frekuent Mono Variable", Courier, monospace;
+    font-size: 16px;
+    font-weight: 300;
+    color: #ff00dd;
+    }
+
 .TG {
   font-family: "TG Frekuent Mono Variable", Courier, monospace;
   font-weight: bold;
+  /* mix-blend-mode: multiply; */
+  color: #002aff;
+}
+
+.TG-light {
+  font-family: "TG Frekuent Mono Variable", Courier, monospace;
+  font-weight: 300;
   /* mix-blend-mode: multiply; */
   color: #002aff;
 }
@@ -234,6 +248,19 @@ mobile-menu.page-id-3294 a:visited {
   color: #fff !important;
 }
 
+iframe {
+  display: block;
+  width: 800px;
+  margin: 0 auto;
+  background-color: #777;
+}
+
+
+.cat-grid {
+  display: flex;
+  justify-content: space-between;
+}
+
  /* ----------------------------- */
 
 
@@ -247,6 +274,19 @@ mobile-menu.page-id-3294 a:visited {
 } 
 
 .words {
+  position: absolute;
+  right: 0;
+  color: #FFFFFF;
+  font-weight: 700;
+  z-index: 9999999;
+  text-decoration: none;
+  bottom: 5px;
+  width: auto;
+  padding-right: 20px;
+  /* mix-blend-mode: color-burn; */
+}
+
+.mix {
   position: absolute;
   right: 0;
   color: #FFFFFF;
@@ -311,6 +351,18 @@ mobile-menu.page-id-3294 a:visited {
   transition: 0.5s ease;
 }
 
+.mix-panel {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  width: 100vw;
+  position: absolute;
+  left: -100%;
+  bottom: 0;
+  transition: 0.5s ease;
+}
+
 .on {
   left: 0;
   transition: 0.5s ease;
@@ -318,6 +370,13 @@ mobile-menu.page-id-3294 a:visited {
 
  .toggle-words img {
   max-width: 20px;
+  position: absolute;
+  right: 36px;
+  bottom: 26px;
+ }
+
+ .toggle-mix img {
+  max-width: 50px;
   position: absolute;
   right: 36px;
   bottom: 26px;
@@ -345,6 +404,10 @@ mobile-menu.page-id-3294 a:visited {
 
 div.grid-item {
 	flex: 50%;
+  flex-wrap: wrap;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
  /* ----------------------------- */
@@ -438,11 +501,12 @@ div.grid-item {
   }
 
   div.post-grid-item {
-    width: 32.5%;
+    width: 32%;
     display: inline-block;
     vertical-align: top;
     text-align: left;
     margin-bottom: 10px;
+    margin-right: 1%;
     position: relative;
   }
 
@@ -457,6 +521,23 @@ div.grid-item {
       font-size: 80%;
   }
 }
+
+@media screen and (min-width: 1920px)  {
+  p.copy {
+      font-size: 120%;
+  }
+}
+
+/* @media screen and (min-width: 2400px)  {
+  p.copy {
+      font-size: 140%;
+  }
+}
+@media screen and (min-width: 3840px)  {
+  p.copy {
+      font-size: 160%;
+  }
+} */
 
  /* ----------------------------- */
 
