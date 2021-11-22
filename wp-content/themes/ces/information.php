@@ -63,7 +63,7 @@ get_header();
 		<section class="mix-panel" id="mix" >
 
 				<div>
-				<iframe src="https://www.dropbox.com/s/f5snduipzt3cylg/Lockdown%20Records%20Mix.mp4?raw=1" frameborder="0" allowfullscreen></iframe>
+				<video class="vid-slider" controls="" name="media"><source src="https://ucc550b6ab0a8e1e3436b6244438.dl.dropboxusercontent.com/cd/0/inline/BadMssRq3v1nY7hqN7b0-Kuu0eNl-EzTiASyUL9TPyTMeXKT1T5IDgordbMJkEVt_w-VZg5LnrAIwlP2N-jSfFFFsSsk2ZtimIVBB_E3r7AVtTn_IvLnVOxrjnPBQSGs1kTRc3CvtaQK4MZ2RxG33HvB/file#" type="video/mp4"></video>
 				</div>
 
 		</section>
