@@ -26,7 +26,7 @@ get_header();
 	<main id="post_title" class="info-main min-vh-100 flex items-center justify-center">
 
 	<div class="grid-info">
-		<div class="ph4 ph0-l f4 lh-copy grid-item">
+		<div class="ph4 ph0-l f4 lh-copy info-grid-item">
 
 			<p class="info">City Edition Studio is a graphic design practice in Bristol, established by Jono Lewarne, who likes to collaborate with clients 
 			and other practitioners on projects like 
@@ -45,7 +45,7 @@ get_header();
 			<p class="info">Clients include: The National Trust, Architectural Association, Arnolfini, Plymouth Arts Centre, Spike Island, Watershed, Edge Arts, Ginkgo Projects, Antlers Gallery, The Crown Estate, Bristol City Council
 		</div>
 
-		<div class="ph4 ph0-l f4 lh-copy grid-item">
+		<div class="ph4 ph0-l f4 lh-copy info-grid-item">
 
 			<p class="info">Email: <a href="mailto:contact@cityeditionstudio.co.uk">contact@cityeditionstudio.co.uk</a></br>
 			Instagram: <a href="https://www.instagram.com/cityeditionstudio/" target="_blank" rel="noopener noreferrer">@cityeditionstudio</a></p>

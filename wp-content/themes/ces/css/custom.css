@@ -69,12 +69,12 @@ h2 {
   color: #002aff;
 }
 
-.TG-light {
+/* .TG-light {
   font-family: "TG Frekuent Mono Variable", Courier, monospace;
   font-weight: 300;
   /* mix-blend-mode: multiply; */
   color: #002aff;
-}
+} */
 
 @keyframes TG-animation {
     from {
@@ -408,6 +408,10 @@ div.grid-item {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+}
+
+div.info-grid-item {
+	flex: 50%;
 }
 
  /* ----------------------------- */
