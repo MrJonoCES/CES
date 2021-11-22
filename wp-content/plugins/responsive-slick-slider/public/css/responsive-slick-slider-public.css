@@ -93,7 +93,7 @@
 	
 }
 .rss-banner-description{
-	font-size:1.5rem;
+	font-size: 1.5vw;
 	font-family: "TG Frekuent Mono";
 	/* mix-blend-mode: exclusion; */
 }
@@ -248,7 +248,7 @@
 	margin-bottom:5px;
 	}
 	.rss-banner-description {
-    	font-size: 1.5rem;
+    	font-size: 1.5vw;
 		/* mix-blend-mode: exclusion; */
 	}
 	.bottomleft .rss-banner-caption {

@@ -26,7 +26,7 @@ get_header();
 	<main id="post_title" class="info-main min-vh-100 flex items-center justify-center">
 
 	<div class="grid-info">
-		<div class="ph4 ph0-l f4 lh-copy info-grid-item">
+		<div class="ph4 ph0-l lh-copy info-grid-item">
 
 			<p class="info">City Edition Studio is a graphic design practice in Bristol, established by Jono Lewarne, who likes to collaborate with clients 
 			and other practitioners on projects like 
@@ -45,7 +45,7 @@ get_header();
 			<p class="info">Clients include: The National Trust, Architectural Association, Arnolfini, Plymouth Arts Centre, Spike Island, Watershed, Edge Arts, Ginkgo Projects, Antlers Gallery, The Crown Estate, Bristol City Council
 		</div>
 
-		<div class="ph4 ph0-l f4 lh-copy info-grid-item">
+		<div class="ph4 ph0-l lh-copy info-grid-item">
 
 			<p class="info">Email: <a href="mailto:contact@cityeditionstudio.co.uk">contact@cityeditionstudio.co.uk</a></br>
 			Instagram: <a href="https://www.instagram.com/cityeditionstudio/" target="_blank" rel="noopener noreferrer">@cityeditionstudio</a></p>
@@ -63,14 +63,14 @@ get_header();
 		<section class="mix-panel" id="mix" >
 
 				<div>
-				<iframe width="800px" height="500px"  src="https://www.dropbox.com/s/f5snduipzt3cylg/Lockdown%20Records%20Mix.mp4?raw=1" frameborder="0" allowfullscreen></iframe>
+				<iframe src="https://www.dropbox.com/s/f5snduipzt3cylg/Lockdown%20Records%20Mix.mp4?raw=1" frameborder="0" allowfullscreen></iframe>
 				</div>
 
 		</section>
 
 		</div>	
 		<div class="mix">
-		<a href="#" class="toggle-mix"><img src="http://localhost:8888/wp-content/themes/ces/css/images/vinyl.gif"></a>
+		<a href="#" class="toggle-mix"><img src="/wp-content/themes/ces/css/images/vinyl.gif"></a>
 		</div>
 
 		</div>

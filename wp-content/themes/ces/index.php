@@ -26,21 +26,21 @@ get_header();
   
   <div class="fl w-100 w-50-m w-25-ns">
 
-  <a class="fl w-100" href="http://localhost:8888/colwith-farm-distillery/">
+  <a class="fl w-100" href="/colwith-farm-distillery/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">
-      <div class="bg-center cover aspect-ratio--object" style="background-image:url(http://localhost:8888/wp-content/uploads/2021/10/CFD-2498_0001_02.jpg);">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2021/10/CFD-2498_0001_02.jpg);">
         <div class="post-title aspect-ratio--object">
-          <p class="TG ma0 f4 f2-l pa4 tl lh-title">Colwith Farm Distillery</p>
+          <p class="TG ma0 f4 f3-l pa4 tl lh-title">Colwith Farm Distillery</p>
         </div>
       </div>
     </div>
   </a>
 
-    <a class="fl w-100" href="http://localhost:8888/desert-island/">
+    <a class="fl w-100" href="/desert-island/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">
-      <div class="bg-center cover aspect-ratio--object" style="background-image:url(http://localhost:8888/wp-content/uploads/2021/10/Desert-Island-2498_0020_20.jpg);">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2021/10/Desert-Island-2498_0020_20.jpg);">
         <div class="post-title aspect-ratio--object">
-          <p class="TG ma0 f4 f2-l pa4 tl lh-title">Desert Island</p>
+          <p class="TG ma0 f4 f3-l pa4 tl lh-title">Desert Island</p>
         </div>
       </div>
     </div>
@@ -51,11 +51,11 @@ get_header();
   <div class="fl w-100 w-50-m w-25-l">
 
     <div class="fl w-100">
-    <a class="fl w-100" href="http://localhost:8888/goss-structural/">
+    <a class="fl w-100" href="/goss-structural/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">
-      <div class="bg-center cover aspect-ratio--object" style="background-image:url(http://localhost:8888/wp-content/uploads/2021/10/GS-2498_0002_03.jpg);">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2021/10/GS-2498_0002_03.jpg);">
         <div class="post-title aspect-ratio--object">
-          <p class="TG ma0 f4 f2-l pa4 tl lh-title">Goss Structural</p>
+          <p class="TG ma0 f4 f3-l pa4 tl lh-title">Goss Structural</p>
         </div>
       </div>
     </div>
@@ -63,11 +63,11 @@ get_header();
     </div>
 
     <div class="fl w-100">
-      <a class="fl w-100" href="http://localhost:8888/river-echoes/">
+      <a class="fl w-100" href="/river-echoes/">
        <div class="db aspect-ratio aspect-ratio--1x1 ">
-        <div class="bg-center cover aspect-ratio--object" style="background-image:url(http://localhost:8888/wp-content/uploads/2021/10/River-Echoes-2498_0000_01.jpg);">
+        <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2021/10/River-Echoes-2498_0000_01.jpg);">
           <div class="post-title aspect-ratio--object">
-             <p class="TG ma0 f4 f2-l pa4 tl lh-title">River Echoes</p>
+             <p class="TG ma0 f4 f3-l pa4 tl lh-title">River Echoes</p>
           </div>
         </div>
        </div>
@@ -79,11 +79,11 @@ get_header();
   <div class="fl w-100 w-50-l">
 
 
-  <a class="fl w-100" href="http://localhost:8888/borderlines-of-the-present/">
+  <a class="fl w-100" href="/borderlines-of-the-present/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">
-      <div class="bg-center cover aspect-ratio--object" style="background-image:url(http://localhost:8888/wp-content/uploads/2021/03/BotP-Web-Res-40-scaled.jpg);">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2021/03/BotP-Web-Res-40-scaled.jpg);">
         <div class="post-title aspect-ratio--object">
-          <p class="TG ma0 f4 f2-l pa4 tl lh-title">Borderlines of the Present</p>
+          <p class="TG ma0 f4 f3-l pa4 tl lh-title">Borderlines of the Present</p>
         </div>
       </div>
     </div>
@@ -95,67 +95,67 @@ get_header();
 
 <!-- Block 2 -->
   
-<!-- <a class="fl w-100 w-50-l" href="http://localhost:8888/art-research-adventure/">
+<!-- <a class="fl w-100 w-50-l" href="/art-research-adventure/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">
       <div class="bg-center cover aspect-ratio--object" style="background-image: <?php $url = wp_get_attachment_url( get_post_thumbnail_id(1385), 'large' ); ?> <img src="<?php echo $url ?>" />
         
       <div class="post-title aspect-ratio--object">
-      <p class="TG ma0 f4 f2-l pa4 tl lh-title">Art, Research & Adventure</p>
+      <p class="TG ma0 f4 f3-l pa4 tl lh-title">Art, Research & Adventure</p>
         </div>
       </div>
     </div>
   </a> -->
 
-  <a class="fl w-100 w-50-l" href="http://localhost:8888/art-research-adventure/">
+  <a class="fl w-100 w-50-l" href="/art-research-adventure/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">
-      <div class="bg-center cover aspect-ratio--object" style="background-image:url(http://localhost:8888/wp-content/uploads/2020/10/dm_2020_bath_uni_edge_300dpi-0455-1-scaled.jpg);">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2020/10/dm_2020_bath_uni_edge_300dpi-0455-1-scaled.jpg);">
         
       <div class="post-title aspect-ratio--object">
-      <p class="TG ma0 f4 f2-l pa4 tl lh-title">Art, Research & Adventure</p>
+      <p class="TG ma0 f4 f3-l pa4 tl lh-title">Art, Research & Adventure</p>
         </div>
       </div>
     </div>
   </a>
 
-  <a class="fl w-100 w-25-l" href="http://localhost:8888/drawing-review/">
+  <a class="fl w-100 w-25-l" href="/drawing-review/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">
-      <div class="bg-center cover aspect-ratio--object" style="background-image:url(http://localhost:8888/wp-content/uploads/2020/10/0000_01-13-scaled.jpg);">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2020/10/0000_01-13-scaled.jpg);">
         
       <div class="post-title aspect-ratio--object">
-      <p class="TG ma0 f4 f2-l pa4 tl lh-title">Drawing Review</p>
+      <p class="TG ma0 f4 f3-l pa4 tl lh-title">Drawing Review</p>
         </div>
       </div>
     </div>
   </a>
 
-  <a class="fl w-100 w-25-l" href="http://localhost:8888/go-go-go/">
+  <a class="fl w-100 w-25-l" href="/go-go-go/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">
-      <div class="bg-center cover aspect-ratio--object" style="background-image:url(http://localhost:8888/wp-content/uploads/2020/10/0005_06.jpg-scaled.jpg);">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2020/10/0005_06.jpg-scaled.jpg);">
         
       <div class="post-title aspect-ratio--object">
-      <p class="TG ma0 f4 f2-l pa4 tl lh-title">Go, Go, Go!</p>
+      <p class="TG ma0 f4 f3-l pa4 tl lh-title">Go, Go, Go!</p>
         </div>
       </div>
     </div>
   </a>
 
-  <a class="fl w-100 w-25-l" href="http://localhost:8888/festa-de-sao-joao-poster/">
+  <a class="fl w-100 w-25-l" href="/festa-de-sao-joao-poster/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">
-      <div class="bg-center cover aspect-ratio--object" style="background-image:url(http://localhost:8888/wp-content/uploads/2020/10/02-scaled.jpg);">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2020/10/02-scaled.jpg);">
         
       <div class="post-title aspect-ratio--object">
-      <p class="TG ma0 f4 f2-l pa4 tl lh-title">Festa de São João</p>
+      <p class="TG ma0 f4 f3-l pa4 tl lh-title">Festa de São João</p>
         </div>
       </div>
     </div>
   </a>
 
-  <a class="fl w-100 w-25-l" href="http://localhost:8888/time-machine-talk-to-the-future/">
+  <a class="fl w-100 w-25-l" href="/time-machine-talk-to-the-future/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">
-      <div class="bg-center cover aspect-ratio--object" style="background-image:url(http://localhost:8888/wp-content/uploads/2020/10/03-scaled.jpg);">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2020/10/03-scaled.jpg);">
         
       <div class="post-title aspect-ratio--object">
-      <p class="TG ma0 f4 f2-l pa4 tl lh-title">Time Machine Talk to the Future</p>
+      <p class="TG ma0 f4 f3-l pa4 tl lh-title">Time Machine Talk to the Future</p>
         </div>
       </div>
     </div>
@@ -165,56 +165,56 @@ get_header();
 
 <!-- Block 4 -->
   
-<a class="fl w-100 w-50-l" href="http://localhost:8888/amra/">
+<a class="fl w-100 w-50-l" href="/amra/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">
-      <div class="bg-center cover aspect-ratio--object" style="background-image:url(http://localhost:8888/wp-content/uploads/2020/10/0001_02.jpg-scaled.jpg);">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2020/10/0001_02.jpg-scaled.jpg);">
         
       <div class="post-title aspect-ratio--object">
-      <p class="TG ma0 f4 f2-l pa4 tl lh-title">AMRA</p>
+      <p class="TG ma0 f4 f3-l pa4 tl lh-title">AMRA</p>
         </div>
       </div>
     </div>
   </a>
 
-  <a class="fl w-100 w-25-l" href="http://localhost:8888/smithsons-trail/">
+  <a class="fl w-100 w-25-l" href="/smithsons-trail/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">
-      <div class="bg-center cover aspect-ratio--object" style="background-image:url(http://localhost:8888/wp-content/uploads/2020/10/0000_IMG_0109.JPG-1-scaled.jpg);">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2020/10/0000_IMG_0109.JPG-1-scaled.jpg);">
         
       <div class="post-title aspect-ratio--object">
-      <p class="TG ma0 f4 f2-l pa4 tl lh-title">Smithsons Trail</p>
+      <p class="TG ma0 f4 f3-l pa4 tl lh-title">Smithsons Trail</p>
         </div>
       </div>
     </div>
   </a>
 
-  <a class="fl w-100 w-25-l" href="http://localhost:8888/indifferent-cresses/">
+  <a class="fl w-100 w-25-l" href="/indifferent-cresses/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">
-      <div class="bg-center cover aspect-ratio--object" style="background-image:url(http://localhost:8888/wp-content/uploads/2020/10/0019_IMG_0159.JPG-scaled.jpg);">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2020/10/0019_IMG_0159.JPG-scaled.jpg);">
         
       <div class="post-title aspect-ratio--object">
-      <p class="TG ma0 f4 f2-l pa4 tl lh-title">Indifferent Cresses</p>
+      <p class="TG ma0 f4 f3-l pa4 tl lh-title">Indifferent Cresses</p>
         </div>
       </div>
     </div>
   </a>
 
-  <a class="fl w-100 w-25-l" href="http://localhost:8888/something-more-permanent-than-concrete/">
+  <a class="fl w-100 w-25-l" href="/something-more-permanent-than-concrete/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">
-      <div class="bg-center cover aspect-ratio--object" style="background-image:url(http://localhost:8888/wp-content/uploads/2020/10/0003_04-9-scaled.jpg);">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2020/10/0003_04-9-scaled.jpg);">
         
       <div class="post-title aspect-ratio--object">
-      <p class="TG ma0 f4 f2-l pa4 tl lh-title">Something More Permanent Than Concrete</p>
+      <p class="TG ma0 f4 f3-l pa4 tl lh-title">Something More Permanent Than Concrete</p>
         </div>
       </div>
     </div>
   </a>
 
-  <a class="fl w-100 w-25-l" href="http://localhost:8888/materials-of-resistance/">
+  <a class="fl w-100 w-25-l" href="/materials-of-resistance/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">
-      <div class="bg-center cover aspect-ratio--object" style="background-image:url(http://localhost:8888/wp-content/uploads/2020/10/0000_01-11-scaled.jpg);">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2020/10/0000_01-11-scaled.jpg);">
         
       <div class="post-title aspect-ratio--object">
-      <p class="TG ma0 f4 f2-l pa4 tl lh-title">Materials of Resistance</p>
+      <p class="TG ma0 f4 f3-l pa4 tl lh-title">Materials of Resistance</p>
         </div>
       </div>
     </div>
@@ -226,20 +226,20 @@ get_header();
   
   <div class="fl w-100 w-50-m w-25-ns">
 
-    <a class="fl w-100" href="http://localhost:8888/being-here-being-there/">
+    <a class="fl w-100" href="/being-here-being-there/">
       <div class="db aspect-ratio aspect-ratio--1x1 ">
-        <div class="bg-center cover aspect-ratio--object" style="background-image:url(http://localhost:8888/wp-content/uploads/2020/10/0000_01-6-scaled.jpg);">
+        <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2020/10/0000_01-6-scaled.jpg);">
           <div class="post-title aspect-ratio--object">
-            <p class="TG ma0 f4 f2-l pa4 tl lh-title">Being Here & Being There</p>
+            <p class="TG ma0 f4 f3-l pa4 tl lh-title">Being Here & Being There</p>
           </div>
         </div>
       </div>
     </a>
-    <a class="fl w-100" href="http://localhost:8888/arnolfini-new-rules/"> 
+    <a class="fl w-100" href="/arnolfini-new-rules/"> 
     <div class="db aspect-ratio aspect-ratio--1x1 ">
-      <div class="bg-center cover aspect-ratio--object" style="background-image:url(http://localhost:8888/wp-content/uploads/2020/10/0000_01-4-scaled.jpg);">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2020/10/0000_01-4-scaled.jpg);">
         <div class="post-title aspect-ratio--object">
-          <p class="TG ma0 f4 f2-l pa4 tl lh-title">Arnolfini New Rules</p>
+          <p class="TG ma0 f4 f3-l pa4 tl lh-title">Arnolfini New Rules</p>
         </div>
       </div>
     </div>
@@ -250,11 +250,11 @@ get_header();
   <div class="fl w-100 w-50-m w-25-l">
 
     <div class="fl w-100">
-      <a class="fl w-100" href="http://localhost:8888/silent-quarter/">
+      <a class="fl w-100" href="/silent-quarter/">
         <div class="db aspect-ratio aspect-ratio--1x1 ">
-          <div class="bg-center cover aspect-ratio--object" style="background-image:url(http://localhost:8888/wp-content/uploads/2020/10/0010_11-scaled.jpg);">
+          <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2020/10/0010_11-scaled.jpg);">
             <div class="post-title aspect-ratio--object">
-              <p class="TG ma0 f4 f2-l pa4 tl lh-title">Silent Quarter</p>
+              <p class="TG ma0 f4 f3-l pa4 tl lh-title">Silent Quarter</p>
             </div>
           </div>
         </div>
@@ -262,11 +262,11 @@ get_header();
     </div>
 
     <div class="fl w-100">
-      <a class="fl w-100" href="http://localhost:8888/fmpup/">
+      <a class="fl w-100" href="/fmpup/">
         <div class="db aspect-ratio aspect-ratio--1x1 ">
-          <div class="bg-center cover aspect-ratio--object" style="background-image:url(http://localhost:8888/wp-content/uploads/2020/10/FMPUP-gif.gif);">
+          <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2020/10/FMPUP-gif.gif);">
             <div class="post-title aspect-ratio--object">
-              <p class="TG ma0 f4 f2-l pa4 tl lh-title">The Fantastical Multimedia Pop-up Project</p>
+              <p class="TG ma0 f4 f3-l pa4 tl lh-title">The Fantastical Multimedia Pop-up Project</p>
             </div>
           </div>
         </div>
@@ -277,11 +277,11 @@ get_header();
 
   <div class="fl w-100 w-50-l pb4">
 
-  <a class="fl w-100" href="http://localhost:8888/tales-from-the-dark-side-of-the-city/">
+  <a class="fl w-100" href="/tales-from-the-dark-side-of-the-city/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">
-      <div class="bg-center cover aspect-ratio--object" style="background-image:url(http://localhost:8888/wp-content/uploads/2020/10/0000_01-7-scaled.jpg);">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2020/10/0000_01-7-scaled.jpg);">
         <div class="post-title aspect-ratio--object">
-          <p class="TG ma0 f4 f2-l pa4 tl lh-title">Tales from the Dark Side of the City</p>
+          <p class="TG ma0 f4 f3-l pa4 tl lh-title">Tales from the Dark Side of the City</p>
         </div>
       </div>
     </div>
