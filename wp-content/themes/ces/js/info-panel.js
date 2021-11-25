@@ -13,7 +13,7 @@ toggleTag.addEventListener("click", function(){
 // and if it's on, make the toggle tag say closed
 // and not, make the toggle tag say on
   if (divTag.classList.contains("on")) {
-    toggleTag.innerHTML = '<img src="http://localhost:8888/wp-content/themes/ces/css/images/close.svg">'
+    toggleTag.innerHTML = '<img src="/wp-content/themes/ces/css/images/close.svg">'
   } else {
     toggleTag.innerHTML = '<a href="#" class="toggle-words"><h2>Info</h2></a>'
   }

@@ -81,7 +81,7 @@ get_header();
 
   <a class="fl w-100" href="/borderlines-of-the-present/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">
-      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2021/03/BotP-Web-Res-40-scaled.jpg);">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2021/03/BotP-Web-Res-02-scaled.jpg);">
         <div class="post-title aspect-ratio--object">
           <p class="TG ma0 f4 f3-l pa4 tl lh-title">Borderlines of the Present</p>
         </div>

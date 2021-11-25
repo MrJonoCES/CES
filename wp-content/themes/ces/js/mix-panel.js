@@ -13,9 +13,9 @@ mixTag.addEventListener("click", function(){
 // and if it's on, make the toggle tag say closed
 // and not, make the toggle tag say on
   if (vidTag.classList.contains("on")) {
-    mixTag.innerHTML = '<img width="50px" height="50px" src="http://localhost:8888/wp-content/themes/ces/css/images/close-mix.svg">'
+    mixTag.innerHTML = '<img width="50px" height="50px" src="/wp-content/themes/ces/css/images/close-mix.svg">'
   } else {
-    mixTag.innerHTML = '<a href="#" class="toggle-mix"><img src="http://localhost:8888/wp-content/themes/ces/css/images/vinyl.gif"></a>'
+    mixTag.innerHTML = '<a href="#" class="toggle-mix"><img src="/wp-content/themes/ces/css/images/vinyl.gif"></a>'
   }
 })
 
