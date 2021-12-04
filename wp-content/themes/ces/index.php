@@ -18,8 +18,6 @@ get_header();
 	<main id="primary" class="site-main">
 
 
-
-
 	<article class="cf pt5">
 
   <!-- Block 1 -->
@@ -53,7 +51,7 @@ get_header();
     <div class="fl w-100">
     <a class="fl w-100" href="/goss-structural/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">
-      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2021/10/GS-2498_0002_03.jpg);">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2021/12/GS_03.jpg);">
         <div class="post-title aspect-ratio--object">
           <p class="TG ma0 f4 f3-l pa4 tl lh-title">Goss Structural</p>
         </div>

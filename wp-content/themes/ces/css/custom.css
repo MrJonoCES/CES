@@ -100,6 +100,10 @@ p {
     position: relative;
   }
 
+  body.home .site-header {
+    height: 2vmin;
+  }
+
   .header-inner {
     display: flex;
     justify-content: space-between;
@@ -731,7 +735,7 @@ div#content {
 }
 
 h2.post-grid-title {
-  height: 5vh;
+  min-height: 5vh;
   line-height: 1.5;
 }
 
