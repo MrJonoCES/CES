@@ -31,11 +31,12 @@ get_header();
 			<p class="info">City Edition Studio is a graphic design practice in Bristol, established by Jono Lewarne, who likes to collaborate with clients 
 			and other practitioners on projects like 
 			
-			<a href="/category/book-design/">books</a>,
+
+			<a href="/tag/books/">books</a>,
 			<a href="/category/print/">printed matter</a>,
-			<a href="/category/identity/">identities</a>,
-			<a href="/category/exhibition/">exhibitions</a>,
-			<a href="/category/installation/">installations</a> and 
+			<a href="/category/identities/">identities</a>,
+			<a href="/category/exhibitions/">exhibitions</a>,
+			<a href="/category/installations/">installations</a> and 
 			<a href="/category/digital/">digital projects</a>.
 
 			It’s Nice That 
