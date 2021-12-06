@@ -39,19 +39,16 @@
 	<div class="grid">
 			
 			<div class="grid-item" id="post_title">
-				<h1><?php the_title(); ?></h1>
+			<h1><?php the_title(); ?></h1>
 
-				<?php if( get_field('more_info') ): ?>
+			<?php if( get_field('blurb') ): ?>
+			<p class="lh-copy copy measure"><?php the_field('blurb'); ?></p>
+			<?php endif; ?>
+
+			<?php if( get_field('more_info') ): ?>
 			<h6 class="TG client-link"><?php the_field('more_info'); ?></h6>
 			<?php endif; ?>
-			</div>
-			
-			<div class="grid-item">
-			<?php if( get_field('blurb') ): ?>
-			<p class="lh-copy copy"><?php the_field('blurb'); ?></p>
-			<?php endif; ?>
-
-
+						
 			</div>
 			
 	</div>

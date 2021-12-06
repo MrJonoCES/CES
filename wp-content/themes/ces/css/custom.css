@@ -297,7 +297,7 @@ mobile-menu.page-id-3294 a:visited {
 .info-panel {
   display: flex;
   align-items: center;
-  justify-content: center;
+  /* justify-content: center; */
   height: 100vh;
   width: 100vw;
   position: absolute;
@@ -342,14 +342,16 @@ mobile-menu.page-id-3294 a:visited {
 }
 
 .grid {
-	display: grid;
+	/* display: grid;
 	grid-template-columns: repeat(2, 1fr);
-	column-gap: 5%;
-  z-index: 999;
-  width: 90vw;
-  height: 80vh;
+	column-gap: 5%; */
+  z-index: 99999999;
+  width: 40vw;
+  height: 100vh;
   background-color: #fff;
-  padding: 50px;
+  padding-left: 40px;
+  padding-right: 20px;
+  padding-top: 20px;
   
 }
 
@@ -432,9 +434,9 @@ div.info-grid-item {
 
 @media screen and (min-width: 961px) and (max-width: 1440px) {
 
-  p {
+  /* p {
     padding-right: 5vw;
-  }
+  } */
 
   p.info {
     font-size: 20px;
@@ -454,9 +456,9 @@ div.info-grid-item {
 
 @media screen and (min-width: 1441px) and (max-width: 1920px) {
 
-  p {
+  /* p {
     padding-right: 20%;
-  }
+  } */
 
   p.info {
     font-size: 26px;
@@ -472,9 +474,9 @@ div.info-grid-item {
 
 @media screen and (min-width: 1921px) and (max-width: 2560px) {
 
-  p {
+  /* p {
     padding-right: 30%;
-  }
+  } */
 
   p.info {
     font-size: 34px;
