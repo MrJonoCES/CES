@@ -26,7 +26,7 @@
 			<?php endif; ?>
 		</div>	
 		<div class="words">
-		<a href="#" class="toggle-words"><h2>Info</h2></a>
+		<a href="#" class="toggle-words"><p class="words">Info</p></a>
 		</div>
 
 		
@@ -39,14 +39,14 @@
 	<div class="grid">
 			
 			<div class="grid-item" id="post_title">
-			<h1><?php the_title(); ?></h1>
+			<p class="proj-title"><?php the_title(); ?></p>
 
 			<?php if( get_field('blurb') ): ?>
 			<p class="lh-copy copy measure"><?php the_field('blurb'); ?></p>
 			<?php endif; ?>
 
 			<?php if( get_field('more_info') ): ?>
-			<h6 class="TG client-link"><?php the_field('more_info'); ?></h6>
+			<p class="TG client-link"><?php the_field('more_info'); ?></p>
 			<?php endif; ?>
 						
 			</div>

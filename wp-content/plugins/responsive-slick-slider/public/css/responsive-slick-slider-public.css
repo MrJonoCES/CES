@@ -93,7 +93,7 @@
 	
 }
 .rss-banner-description{
-	font-size: 1.5vw;
+	/* font-size: 1.5vw; */
 	font-family: "TG Frekuent Mono";
 	/* mix-blend-mode: exclusion; */
 }
@@ -223,7 +223,7 @@
 		
 	}
 	.rss-banner-description {
-		font-size: 4vw;
+		/* font-size: 4vw; */
     	line-height: 1.4em;
 		display: none;
 	}
@@ -247,10 +247,10 @@
 	line-height: 1.2em;
 	margin-bottom:5px;
 	}
-	.rss-banner-description {
+	/* .rss-banner-description {
     	font-size: 1.5vw;
-		/* mix-blend-mode: exclusion; */
-	}
+		mix-blend-mode: exclusion;
+	} */
 	.bottomleft .rss-banner-caption {
 	width: auto;
 	max-width: 40%;
