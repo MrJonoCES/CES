@@ -62,7 +62,7 @@ get_header();
 
   <article class="fl w-100 w-33-l pa2-ns">
     <a href="/category/digital/">
-      <div class="mt3 db aspect-ratio aspect-ratio--1x1 cat-grid-item">
+      <div class="mt3 db aspect-ratio aspect-ratio--16x9 cat-grid-item">
         <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2020/10/FMPUP-gif.gif);">
         </div>
       </div>
@@ -72,7 +72,7 @@ get_header();
 
   <article class="fl w-100 w-33-l pa2-ns">
     <a href="/category/exhibition/">
-      <div class="mt3 db aspect-ratio aspect-ratio--1x1 cat-grid-item">
+      <div class="mt3 db aspect-ratio aspect-ratio--16x9 cat-grid-item">
         <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2020/10/0000_01-1.jpg-1-scaled.jpg);">
         </div>
       </div>
@@ -82,7 +82,7 @@ get_header();
 
   <article class="fl w-100 w-33-l pa2-ns">
     <a href="/category/identity/">
-      <div class="mt3 db aspect-ratio aspect-ratio--1x1 cat-grid-item">
+      <div class="mt3 db aspect-ratio aspect-ratio--16x9 cat-grid-item">
         <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2021/10/CFD-2498_0010_11.jpg);">
         </div>
       </div>
@@ -93,7 +93,7 @@ get_header();
 
   <article class="fl w-100 w-33-l pa2-ns">
     <a href="/category/installation/">
-      <div class="mt3 db aspect-ratio aspect-ratio--1x1 ">
+      <div class="mt3 db aspect-ratio aspect-ratio--16x9 ">
         <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2020/10/dm_2020_bath_uni_edge_300dpi-0558-1-scaled.jpg);">
           
         </div>
@@ -104,7 +104,7 @@ get_header();
 
   <article class="fl w-100 w-33-l pa2-ns">
     <a href="/category/print/">
-      <div class="mt3 db aspect-ratio aspect-ratio--1x1 ">
+      <div class="mt3 db aspect-ratio aspect-ratio--16x9 ">
         <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2020/10/0000_01-10-scaled.jpg);">
         </div>
       </div>
@@ -114,7 +114,7 @@ get_header();
 
   <article class="fl w-100 w-33-l pa2-ns">
     <a href="/category/websites/">
-      <div class="mt3 db aspect-ratio aspect-ratio--1x1 ">
+      <div class="mt3 db aspect-ratio aspect-ratio--16x9 ">
         <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2021/10/GS-2498_0004_05.jpg);">
         </div>
       </div>

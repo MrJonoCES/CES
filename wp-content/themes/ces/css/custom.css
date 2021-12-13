@@ -654,6 +654,10 @@ position: relative;
 padding-bottom: 100%;
 }
 
+.aspect-ratio--16x9 {
+  padding-bottom: 56.25%;
+}
+
 .aspect-ratio--object {
 position: absolute;
 top: 0;
