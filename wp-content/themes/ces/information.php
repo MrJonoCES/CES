@@ -23,12 +23,12 @@ Template Name: Information Page
 get_header();
 ?>
 
-	<main id="post_title" class="info-main min-vh-100 flex items-center justify-center">
+	<main id="words" class="info-main min-vh-100 flex items-center justify-center">
 
 	<div class="grid-info">
 		<div class="ph4 ph0-l lh-copy info-grid-item measure">
 
-			<p class="info">City Edition Studio is a graphic design practice in Bristol, established by Jono Lewarne, who likes to collaborate with clients 
+			<p class="info">City Edition Studio is a graphic design practice in Bristol, established by Jono Lewarne, who collaborates with clients 
 			and other practitioners on projects like 
 			
 			<a href="/tag/books/">books</a>,
@@ -42,7 +42,7 @@ get_header();
 			<a href="https://www.itsnicethat.com/articles/city-edition-studio-graphic-design-200519" target="_blank" rel="noopener noreferrer">has written </a> about City Edition Studio. </p>
 			<br>
 
-			<p class="info">Clients include: The National Trust, Architectural Association, Arnolfini, Plymouth Arts Centre, Spike Island, Watershed, Edge Arts, Ginkgo Projects, Antlers Gallery, The Crown Estate, Bristol City Council.
+			<p class="info">Clients include: Grand Union Art Gallery, The National Trust, Architectural Association, Arnolfini, Colwith Farm Distillery, Plymouth Arts Centre, Spike Island, Watershed, Edge Arts, Ginkgo Projects, Antlers Gallery, The Crown Estate, Bristol City Council.
 		</div>
 
 		<div class="ph4 ph0-l lh-copy info-grid-item measure">
@@ -50,7 +50,12 @@ get_header();
 			<p class="info">Email: <a href="mailto:contact@cityeditionstudio.co.uk">contact@cityeditionstudio.co.uk</a></br>
 			Instagram: <a href="https://www.instagram.com/cityeditionstudio/" target="_blank" rel="noopener noreferrer">@cityeditionstudio</a></p>
 			<br>
-			<p class="info">The Ladies’ Room, Spike Island, 133 Cumberland Road, Bristol, BS1 6UX.</p>
+			<p class="info">Address:</br>
+			The Ladies’ Room</br>
+			Spike Island</br>
+			133 Cumberland Road</br>
+			Bristol, BS1 6UX</br>
+			United Kingdom</p>
 			<br>
 			<p class="info">Unfortunately there are no positions currently available.</p>
 			<br>
