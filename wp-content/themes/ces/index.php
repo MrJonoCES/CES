@@ -20,7 +20,7 @@ get_header();
 
 	<article class="cf pt5">
 
-  <!-- Block 1 -->
+  <!-- Block 5 -->
   
   <div class="fl w-100 w-50-m w-25-ns">
 
@@ -89,9 +89,59 @@ get_header();
 
   </div>
 
-<!-- End of Block 1 -->
+<!-- End of Block 5 -->
 
-<!-- Block 2 -->
+<!-- Block 4 -->
+
+
+<a class="fl w-100 w-25-ns" href="/grow-feral/"> 
+    <div class="db aspect-ratio aspect-ratio--1x1 ">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2022/01/Grow-Feral-Web-Res_0003_04.jpg);">
+        
+      <div class="post-title aspect-ratio--object">
+      <p class="TG ma0 f4 f3-l pa4 tl lh-title">Grow Feral</p>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <a class="fl w-100 w-25-ns" href="/borderlines-of-the-present-website/">
+    <div class="db aspect-ratio aspect-ratio--1x1 ">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2022/01/BOTP-Site-Frame-01.jpg);">
+        
+      <div class="post-title aspect-ratio--object">
+      <p class="TG ma0 f4 f3-l pa4 tl lh-title">Borderlines of the Present Website</p>
+        </div>
+      </div>
+    </div>
+  </a>
+
+
+  <a class="fl w-100 w-25-ns" href="/my-kid-couldve-done-that/"> 
+    <div class="db aspect-ratio aspect-ratio--1x1 ">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2022/01/01.jpg);">
+        
+      <div class="post-title aspect-ratio--object">
+      <p class="TG ma0 f4 f3-l pa4 tl lh-title">My Kid Could've Done That</p>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <a class="fl w-100 w-25-ns" href="/tools-for-tea/">
+    <div class="db aspect-ratio aspect-ratio--1x1 ">
+      <div class="bg-center cover aspect-ratio--object" style="background-image:url(/wp-content/uploads/2022/01/Tools-for-Tea_0008_9.jpg);">
+        
+      <div class="post-title aspect-ratio--object">
+      <p class="TG ma0 f4 f3-l pa4 tl lh-title">Tools for Tea</p>
+        </div>
+      </div>
+    </div>
+  </a>
+
+  <!-- End of Block 4 -->
+
+<!-- Block 3 -->
   
 <!-- <a class="fl w-100 w-50-l" href="/art-research-adventure/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">
@@ -159,9 +209,9 @@ get_header();
     </div>
   </a>
 
-<!-- end of Block 2 -->
+<!-- end of Block 3 -->
 
-<!-- Block 4 -->
+<!-- Block 2 -->
   
 <a class="fl w-100 w-50-l" href="/amra/">
     <div class="db aspect-ratio aspect-ratio--1x1 ">
@@ -218,9 +268,9 @@ get_header();
     </div>
   </a>
 
-<!-- end of Block 4 -->
+<!-- end of Block 2 -->
 
-  <!-- Block 5 -->
+  <!-- Block 1 -->
   
   <div class="fl w-100 w-50-m w-25-ns">
 
@@ -287,7 +337,7 @@ get_header();
 
   </div>
 
-<!-- End of Block 5  -->
+<!-- End of Block 1  -->
 
 <div class="tc">
 <a href="/categories/"><h2>View all Projects</h2></a>
